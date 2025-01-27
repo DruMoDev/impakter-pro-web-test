@@ -11,7 +11,9 @@ export default function Footer() {
           <LeftSection />
           <LinksSection />
         </div>
-        <DividerSlim />
+        <div className="my-5">
+          <DividerSlim />
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-0">
           <div className="flex gap-3 flex-col lg:flex-row">
             <ImpakterProTextLogo />{" "}
@@ -20,7 +22,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex gap-3 justify-end">
+          <div className="flex gap-3 lg:justify-end">
             <p className="font-semibold">Terms & Conditions</p>
             <span className="text-typo-secondary/50">|</span>
             <p className="font-semibold">Privacy Policy</p>

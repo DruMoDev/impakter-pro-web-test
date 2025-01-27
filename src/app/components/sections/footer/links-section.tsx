@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function LinksSection() {
   return (
-    <div className="grid grid-cols-2  lg:grid-cols-4 text-sm">
+    <div className="grid grid-cols-2  lg:grid-cols-4 text-sm gap-8 lg:gap-0">
       <div className="flex flex-col gap-2">
         <h3 className="font-semibold ">ESG Software</h3>
         <Link href={EXTERNAL_LINKS.esgToolBusiness}>

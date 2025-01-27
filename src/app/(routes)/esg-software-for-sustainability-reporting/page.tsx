@@ -4,6 +4,14 @@ import Hero from "./components/hero-business";
 import Reporting from "./components/reporting";
 import GetStarted from "@/components/sections/get-started/get-started-section";
 import FAQs from "@/components/sections/faqs/faqs";
+import { FAQS_BUSINESS } from "@/data/faqs/business";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ESG Software for EU Companies ",
+  description:
+    "SMEs with CSRD reporting requirements use our ESG Software, IMPAKTER PRO, to generate sustainability reports - without training, within minutes!",
+};
 
 export default function Business() {
   return (
@@ -12,7 +20,7 @@ export default function Business() {
       <BetterROI />
       <Reporting />
       <ShowcaseReport />
-      <FAQs title="FAQs for ESG Software in the EU" faqs={[]} />
+      <FAQs title="FAQs for ESG Software in the EU" faqs={FAQS_BUSINESS} />
       <GetStarted />
     </>
   );

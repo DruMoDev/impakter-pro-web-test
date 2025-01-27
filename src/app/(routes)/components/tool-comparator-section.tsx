@@ -26,7 +26,9 @@ export default function ToolComparatorSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mt-2">
             <div className="shadow-sm p-8 rounded-lg bg-white w-full hover:border-primary transition-all ease-in-out duration-300 border-2">
               <h4 className="font-semibold text-lg">ESG Tool for Companies</h4>
-              <DividerSlim />
+              <div className="my-5">
+                <DividerSlim />
+              </div>
               <ul className="space-y-3">
                 <li className="flex gap-2 p-content font-medium">
                   <CircleCheck className="text-primary size-5" />
@@ -58,7 +60,9 @@ export default function ToolComparatorSection() {
               <h4 className="font-semibold text-lg">
                 ESG Tool for Enterprises
               </h4>
-              <DividerSlim />
+              <div className="my-5">
+                <DividerSlim />
+              </div>
               <ul className="space-y-3">
                 <li className="flex gap-2 p-content font-medium">
                   <CircleCheck className="text-primary size-5" />

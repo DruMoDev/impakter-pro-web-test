@@ -1,79 +1,52 @@
 export const FAQS_BUSINESS = [
   {
-    question: "What is an ESG software?",
-    answer: `ESG software helps businesses track, manage, and report on their environmental, social, and governance (ESG) performance, ensuring compliance with regulations like CSRD and sustainability reporting standards.`,
+    question: "What is ESG for SMEs?",
+    answer: `ESG for SMEs refers to measuring and reporting environmental, social, and governance impacts. It's a framework for evaluating a company's sustainability performance across the said three dimensions.`,
   },
   {
-    question: "Who should use ESG software?",
-    answer: `Both SMEs and enterprises should use ESG software to track, report, and improve their sustainability efforts. Using IMPAKTER PRO ESG reporting software, SMEs can manage regulatory compliance easily, while enterprises can track suppliers and large-scale ESG data.`,
+    question: "What is the ESG toolkit for SMEs?",
+    answer: `An ESG toolkit is a set of tools and resources that help SMEs understand and implement ESG practices. This can include guidelines, templates, software, and consulting services.
+IMPAKTER PRO ESG toolkit for SMEs includes more than the AI-powered ESG reporting software. It has IMPAKTER Media (an ESG news platform) IMPAKTER INDEX (an ESG data collection), access to IMPAKTER ESG experts for guidance on ESG implementation in business, and more.`,
   },
   {
-    question: "What is the best ESG software provider?",
-    answer: `The best ESG software provider offers customisable, cost-effective solutions. IMPAKTER PRO is an AI-powered ESG reporting tool designed for SMEs and enterprises, ensuring CSRD compliance at an affordable price.`,
+    question: "How to implement ESG in a small business?",
+    answer: `To implement ESG in a small business or startup, start by identifying key areas of sustainability focus, such as reducing carbon emissions, improving employee well-being, or ethical sourcing. Set clear goals, track progress, and engage with stakeholders.
+ESG software for small and medium-sized companies, like our IMPAKTER PRO, can be instrumental in implementing ESG.`,
   },
   {
-    question: "How much does an ESG report cost?",
-    answer: `The cost of an ESG report varies by ESG software provider, and is typically opaque. However, IMPAKTER PRO offers a cost-effective ESG reporting software starting from €299!`,
+    question: "Do small businesses need to report CSRD in the EU?",
+    answer: `Yes, certain SMEs in the EU are mandated to report on sustainability performance under the Corporate Sustainability Reporting Directive (CSRD).
+It includes a listed company on a regulated market in the EU, a company with 250+ employees, etc. Consult our ESG experts to understand if your small business falls under the CSRD reporting requirement.`,
   },
   {
-    question: "How to create an ESG report?",
-    answer: `Use ESG reporting software like IMPAKTER PRO to upload your data, generate a scorecard, and create a comprehensive sustainability report that aligns with CSRD and other regulatory requirements.`,
+    question: "How can small businesses or startups report ESG?",
+    answer: `Small businesses and startups can report ESG by collecting their ESG data to perform an ESG assessment, then identifying ESG risk areas and devising a sustainability action plan.
+It can be a resource-intensive process that requires a dedicated ESG team. A smarter approach for small businesses looking to report ESG is to use ESG reporting software.
+Using our AI-powered ESG software for SMEs, small businesses can complete questionnaires and upload documents to generate an easy–to–read ESG report within minutes without ESG training. Contact our ESG experts to discuss how.`,
+  },
+  {
+    question: "What is the ESG software pricing for small businesses?",
+    answer: `ESG software pricing for small businesses varies depending on the features and services offered.
+IMPAKTER PRO offers affordable ESG plans and pricing tailored to the needs of SMEs, starting @ €299/year.`,
+  },
+  {
+    question: "Can a small business generate ESG rating?",
+    answer: `Yes! Small businesses can generate an ESG rating to assess their sustainability performance.
+They can use our FREE ESG Score generator for preliminary ESG assessment or basic ESG rating. Then subscribe to upgrade for a comprehensive ESG rating.`,
+  },
+  {
+    question: "What is the best ESG software for small businesses in the EU?",
+    answer: `IMPAKTER PRO is a leading ESG software solution designed specifically for SMEs. It offers a user-friendly interface, automated data collection, and expert guidance.`,
+  },
+  {
+    question: "Is there a free ESG software for small business?",
+    answer: `While there may be free basic ESG tools available, comprehensive ESG software typically requires a subscription.
+Our IMPAKTER PRO ESG software comes with a Free ESG Score feature; plus, our ESG software plans are among the most affordable in the market.`,
   },
   {
     question:
-      "What do I need to know before using IMPAKTER PRO for sustainability reporting?",
-    answer: `Nothing! IMPAKTER PRO’s ESG software is intuitive, like filling out a form. No specialised training is required, making our ESG reporting services perfect for both beginners and experienced users.`,
-  },
-  {
-    question: "What is a basic ESG report?",
-    answer: `A basic ESG report (also, called preliminary ESG report) offers a high-level snapshot of your sustainability performance using limited data. IMPAKTER PRO provides basic ESG reporting services for FREE!`,
-  },
-  {
-    question: "What are the ESG reporting requirements?",
-    answer: `ESG reporting requirements depend on the region and industry but often include metrics on environmental impact, social responsibility, and governance aligned with frameworks like CSRD.`,
-  },
-  {
-    question: "What technology is used in ESG reporting?",
-    answer: `ESG reporting often leverages AI-powered tools to automate data collection, analysis, and report generation, streamlining compliance with regulations like CSRD, ESRS, and other sustainability standards.`,
-  },
-  {
-    question:
-      "Can I integrate my company’s data into sustainability reporting software?",
-    answer: `Yes, you can seamlessly integrate your company data into our sustainability reporting software. IMPAKTER PRO ensures standard data security and privacy.`,
-  },
-  {
-    question: "Which companies need to report on CSRD?",
-    answer: `
-Although CSRD report requirement was first announced in 2021, different companies (by size and industry) need to report it at different times.
-
-Most critical of them are:
-
-· Jan 2025 for companies already subject to the NFRD (based on 2024 fiscal year data).
-
-· Jan 2026 for all other companies (based on 2025 fiscal year data).
-
-· Jan 2027 for listed small and medium enterprises that request an extension (based on 2026 fiscal year data).
-`,
-  },
-
-  {
-    question: "What needs to be reported under CSRD?",
-    answer: `Under CSRD, companies must disclose their impact on the environment, social practices, and governance, including data on emissions, social policies, and risk management strategies.`,
-  },
-  {
-    question: "Is CSRD only for EU?",
-    answer: `Yes, CSRD is an EU regulation. However, non-EU companies with operations in the EU may also need CSRD reporting software to meet these requirements.`,
-  },
-  {
-    question: "Is IMPAKTER PRO compliant with CSRD regulations?",
-    answer: `Yes, IMPAKTER PRO is fully compliant with EU regulations, including CSRD, making it the ideal CSRD software for businesses of all sizes.`,
-  },
-  {
-    question: "What is software for sustainability?",
-    answer: `Sustainability software helps companies track and report sustainability metrics like carbon emissions, resource use, and social impact, ensuring compliance with frameworks like CSRD and TCFD.`,
-  },
-  {
-    question: "What is the structure of the sustainability report for CSRD?",
-    answer: `A CSRD sustainability report typically includes sections on environmental impact, social responsibility, and governance performance, aligned with EU Taxonomy and ESRS guidelines.`,
+      "What do you get in IMPAKTER PRO ESG Software for small businesses?",
+    answer: `IMPAKTER PRO ESG software is designed for small business ESG reporting needs. It comes with a range of features, including ESG rating, ESG report, sustainability roadmap, ESG badge, and more.
+Contact our ESG experts today to discuss how exactly our ESG software can help your small business become more ESG-aligned.`,
   },
 ];
