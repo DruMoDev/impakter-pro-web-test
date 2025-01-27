@@ -1,5 +1,12 @@
 import Badge from "@/components/ui/badge";
-import { Banknote, Box, Clock, PiggyBank, UserCheck, Image } from "lucide-react";
+import {
+  Banknote,
+  Box,
+  Clock,
+  PiggyBank,
+  UserCheck,
+  Image,
+} from "lucide-react";
 
 export default function WhyImpkaterSection() {
   return (
@@ -17,42 +24,42 @@ export default function WhyImpkaterSection() {
         </h2>
 
         <div className="grid grid-cols-3 mt-5 gap-5">
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center">
+          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
             <Banknote className="text-primary size-7" />
             <p className="font-semibold text-base text-balance">
               Cost-Effective ESG Solutions
             </p>
           </div>
 
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center">
+          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
             <Clock className="text-primary size-7" />
             <p className="font-semibold text-base text-balance">
               Time-Efficient Compliance
             </p>
           </div>
 
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center">
+          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
             <UserCheck className="text-primary size-7" />
             <p className="font-semibold text-base text-balance">
               User-Friendly for ESG Beginners
             </p>
           </div>
 
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center">
+          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
             <Box className="text-primary size-7" />
             <p className="font-semibold text-base text-balance">
               EU Regulation Ready
             </p>
           </div>
 
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center">
+          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
             <PiggyBank className="text-primary size-7" />
             <p className="font-semibold text-base text-balance">
               No Consultancy Cost
             </p>
           </div>
 
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center">
+          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white h-auto">
             <Image className="text-primary size-7" />
             <p className="font-semibold text-base text-balance">
               Daily ESG News & Updates
