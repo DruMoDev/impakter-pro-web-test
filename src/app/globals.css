@@ -29,3 +29,10 @@
   @apply font-semibold text-lg lg:text-2xl;
 }
 
+@layer base {
+  :root {
+
+    --radius: 0.5rem
+  }
+}
+

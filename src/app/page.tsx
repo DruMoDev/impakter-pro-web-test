@@ -1,6 +1,9 @@
-import HeroSection from "./components/sections/hero/hero-section";
+import FAQs from "./components/sections/faqs-section/faqs";
+import HeroSection from "./components/sections/hero/hero-homepage-section";
 import ShowcaseReportSection from "./components/sections/showcase-report/showcase-report-section";
 import ToolComparatorSection from "./components/sections/tool-comparator/tool-comparator-section";
+import WhyImpkaterSection from "./components/sections/why-impakter/why-impakter-section";
+import { FAQS_HOMEPAGE } from "./data/faqs/homepage";
 
 export default function Home() {
   return (
@@ -8,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <ToolComparatorSection />
       <ShowcaseReportSection />
+      <WhyImpkaterSection />
+      <FAQs faqs={FAQS_HOMEPAGE} title="FAQs for ESG Software in the EU" />
     </>
   );
 }
