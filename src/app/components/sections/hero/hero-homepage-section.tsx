@@ -36,7 +36,7 @@ export default function HeroSection() {
           <Link href="/" className="gap-2 btn btn-secondary">
             Free esg score <ArrowRight />
           </Link>
-          <p className="p-content">*no credit card required</p>
+          <p className="p-content font-medium">*no credit card required</p>
         </div>
       </div>
     </section>
