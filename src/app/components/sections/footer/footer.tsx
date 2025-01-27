@@ -6,14 +6,14 @@ import ImpakterProTextLogo from "@/components/ui/impakter-pro-text-logo";
 export default function Footer() {
   return (
     <footer className="bg-white py-12">
-      <div className="max-w-[1308px] mx-auto">
-        <div className="grid grid-cols-2 gap-10">
+      <div className="container-wide">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <LeftSection />
           <RightSection />
         </div>
         <DividerSlim />
-        <div className="grid grid-cols-2">
-          <div className="flex gap-3">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-0">
+          <div className="flex gap-3 flex-col lg:flex-row">
             <ImpakterProTextLogo />{" "}
             <p className="font-semibold">
               © 2024 Impakterpro.com All rights reserved

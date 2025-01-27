@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function GetStartedSection() {
   return (
     <section className="py-20 bg-primary-light relative overflow-hidden">
-      <div className="grid grid-cols-2 max-w-[1308px] mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 container-wide">
         <div className="flex flex-col gap-5 pr-20">
           <ImpakterProTextLogo />
           <h2 className="h2-content">Ready to get started?</h2>
@@ -18,7 +18,7 @@ export default function GetStartedSection() {
           </div>
         </div>
       </div>
-        <div className="absolute bottom-0 right-0 w-1/2 max-h-[90%]">
+        <div className="absolute bottom-0 right-0 w-1/2 max-h-[90%] hidden lg:block">
           <Image
             src={"/get-started-img.webp"}
             width={1316}
