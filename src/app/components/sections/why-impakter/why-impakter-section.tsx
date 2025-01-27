@@ -8,6 +8,33 @@ import {
   Image,
 } from "lucide-react";
 
+const CARDS_INFO = [
+  {
+    icon: Banknote,
+    title: "Cost-Effective ESG Solutions",
+  },
+  {
+    icon: Clock,
+    title: "Time-Efficient Compliance",
+  },
+  {
+    icon: UserCheck,
+    title: "User-Friendly for ESG Beginners",
+  },
+  {
+    icon: Box,
+    title: "EU Regulation Ready",
+  },
+  {
+    icon: PiggyBank,
+    title: "No Consultancy Cost",
+  },
+  {
+    icon: Image,
+    title: "Daily ESG News & Updates",
+  },
+];
+
 export default function WhyImpkaterSection() {
   return (
     <section className="py-20 bg-primary-light">
@@ -15,56 +42,25 @@ export default function WhyImpkaterSection() {
         <div>
           <Badge>Explore</Badge>
         </div>
-        <p className="p-content font-medium">
-          Why Businesses Choose IMPAKTER PRO ESG Software
-        </p>
         <h2 className="h2-content">
           We cover essentials of CSRD reporting and go beyond with value-adds to
           ensure you meet all your sustainability needs.
         </h2>
+        <p className="p-content font-medium">
+          Why Businesses Choose IMPAKTER PRO ESG Software
+        </p>
 
-        <div className="grid grid-cols-3 mt-5 gap-5">
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
-            <Banknote className="text-primary size-7" />
-            <p className="font-semibold text-base text-balance">
-              Cost-Effective ESG Solutions
-            </p>
-          </div>
-
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
-            <Clock className="text-primary size-7" />
-            <p className="font-semibold text-base text-balance">
-              Time-Efficient Compliance
-            </p>
-          </div>
-
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
-            <UserCheck className="text-primary size-7" />
-            <p className="font-semibold text-base text-balance">
-              User-Friendly for ESG Beginners
-            </p>
-          </div>
-
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
-            <Box className="text-primary size-7" />
-            <p className="font-semibold text-base text-balance">
-              EU Regulation Ready
-            </p>
-          </div>
-
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white">
-            <PiggyBank className="text-primary size-7" />
-            <p className="font-semibold text-base text-balance">
-              No Consultancy Cost
-            </p>
-          </div>
-
-          <div className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white h-auto">
-            <Image className="text-primary size-7" />
-            <p className="font-semibold text-base text-balance">
-              Daily ESG News & Updates
-            </p>
-          </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 mt-5 gap-5">
+          {CARDS_INFO.map((card, index) => (
+            <div
+              key={index}
+              className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white h-[90px]">
+              <card.icon className="text-primary size-7" />
+              <p className="font-semibold text-base text-balance">
+                {card.title}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

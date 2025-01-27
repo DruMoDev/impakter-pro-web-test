@@ -21,9 +21,9 @@ export default function ToolComparatorSection() {
             journey, our ESG tool offers support at every stage.
           </p>
 
-          <div className="flex gap-7 mt-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mt-2">
             <div className="shadow-sm p-8 rounded-lg bg-white w-full hover:border-primary transition-all ease-in-out duration-300 border-2">
-              <h4 className="font-semibold text-lg">ESG Tool for SMEs</h4>
+              <h4 className="font-semibold text-lg">ESG Tool for Companies</h4>
               <DividerSlim />
               <ul className="space-y-3">
                 <li className="flex gap-2 p-content font-medium">
