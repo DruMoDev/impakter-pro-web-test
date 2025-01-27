@@ -3,21 +3,22 @@ import Line from "@/components/ui/line";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import DividerSlim from "@/components/ui/divider-slim";
+import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 
 export default function HeroSection() {
   return (
     <section>
-      <div className=" flex flex-col lg:flex-row-reverse lg:mt-20 lg:gap-5 container">
-        <div className="h-full w-full md:px-10 md:-my-10 lg:p-0 lg:my-auto lg:scale-110">
+      <div className="flex flex-col  lg:mt-20 lg:gap-5 container relative">
+        
           <Image
-            src={"/hero-pc.webp"}
+            src={"/hero-homepage.svg"}
             alt="Hero Image"
-            width={1920}
-            height={1080}
-            className="h-full w-full"
+            height={300}
+            width={300}
+            className="lg:absolute -right-52 -top-52 w-auto static"
           />
-        </div>
-        <div className="flex flex-col items-center text-center gap-y-3 md:gap-y-5 lg:text-start lg:items-start">
+        
+        <div className="flex flex-col items-center text-center gap-y-3 md:gap-y-5 lg:text-start lg:items-start w-full lg:w-[45%]">
           <h1 className="h1-content ">
             ESG Software for CSRD Reporting: Easy. Affordable. Fast.
           </h1>
@@ -33,7 +34,7 @@ export default function HeroSection() {
           </ul>
 
           <DividerSlim />
-          <Link href="/" className="gap-2 btn btn-secondary">
+          <Link href={EXTERNAL_LINKS.login} className="gap-2 btn btn-secondary">
             Free esg score <ArrowRight />
           </Link>
           <p className="p-content font-medium">*no credit card required</p>

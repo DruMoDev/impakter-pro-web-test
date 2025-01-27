@@ -1,6 +1,6 @@
 import DividerSlim from "@/components/ui/divider-slim";
 import LeftSection from "./left-section";
-import RightSection from "./right-section";
+import LinksSection from "./links-section";
 import ImpakterProTextLogo from "@/components/ui/impakter-pro-text-logo";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container-wide">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <LeftSection />
-          <RightSection />
+          <LinksSection />
         </div>
         <DividerSlim />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-0">

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { ChevronDown, LogIn, X } from "lucide-react";
+import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 
 const NAVBAR_LINKS = [
   {
@@ -13,12 +14,12 @@ const NAVBAR_LINKS = [
   {
     id: 2,
     title: "Pricing",
-    link: "/pricing-page",
+    link: EXTERNAL_LINKS.pricing,
   },
   {
     id: 3,
     title: "Resources",
-    link: "/blog-page",
+    link: EXTERNAL_LINKS.blog,
   },
   {
     id: 4,
@@ -29,13 +30,13 @@ const NAVBAR_LINKS = [
   {
     id: 5,
     title: "Book a demo",
-    link: "/book-a-demo",
+    link: EXTERNAL_LINKS.contact,
     className: "btn btn-secondary",
   },
   {
     id: 6,
     title: "Sign in",
-    link: "/sign-in",
+    link: EXTERNAL_LINKS.login,
     className: "btn btn-primary",
     icon: LogIn,
   },

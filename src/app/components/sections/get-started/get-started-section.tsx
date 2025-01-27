@@ -1,5 +1,7 @@
 import ImpakterProTextLogo from "@/components/ui/impakter-pro-text-logo";
+import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function GetStartedSection() {
   return (
@@ -13,19 +15,23 @@ export default function GetStartedSection() {
             path to comprehensive sustainability
           </p>
           <div className="flex gap-5">
-            <button className="btn btn-primary">Contact Us</button>
-            <button className="btn btn-secondary">Get Free Score</button>
+            <Link href={EXTERNAL_LINKS.contact} className="btn btn-primary">
+              Contact Us
+            </Link>
+            <Link href={EXTERNAL_LINKS.login} className="btn btn-secondary">
+              Get Free Score
+            </Link>
           </div>
         </div>
       </div>
-        <div className="absolute bottom-0 right-0 w-1/2 max-h-[90%] hidden lg:block">
-          <Image
-            src={"/get-started-img.webp"}
-            width={1316}
-            height={549}
-            alt="Dashboard image"
-          />
-        </div>
+      <div className="absolute bottom-0 right-0 w-1/2 max-h-[90%] hidden lg:block">
+        <Image
+          src={"/get-started-img.webp"}
+          width={1316}
+          height={549}
+          alt="Dashboard image"
+        />
+      </div>
     </section>
   );
 }

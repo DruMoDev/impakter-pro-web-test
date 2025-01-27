@@ -1,7 +1,9 @@
 import Badge from "@/components/ui/badge";
 import DividerSlim from "@/components/ui/divider-slim";
 import Line from "@/components/ui/line";
+import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 import { CircleCheck, ExternalLink } from "lucide-react";
+import Link from "next/link";
 
 export default function ToolComparatorSection() {
   return (
@@ -43,9 +45,13 @@ export default function ToolComparatorSection() {
                   ESG news & regulation updates
                 </li>
               </ul>
-              <button className="btn btn-primary mx-auto mt-8 ">
-                Explore <ExternalLink className="size-4" />
-              </button>
+              <div className="flex justify-center items-center mt-8">
+                <Link
+                  href={EXTERNAL_LINKS.esgToolBusiness}
+                  className="btn btn-primary">
+                  Explore <ExternalLink className="size-4" />
+                </Link>
+              </div>
             </div>
 
             <div className="shadow-sm p-8 rounded-lg bg-white w-full hover:border-primary transition-all ease-in-out duration-300 border-2">
@@ -71,9 +77,13 @@ export default function ToolComparatorSection() {
                   Sustainable partner label (if qualified)
                 </li>
               </ul>
-              <button className="btn btn-primary mx-auto mt-8 ">
-                Explore <ExternalLink className="size-4" />
-              </button>
+              <div className="flex justify-center items-center mt-8">
+                <Link
+                  href={EXTERNAL_LINKS.esgToolSupply}
+                  className="btn btn-primary">
+                  Explore <ExternalLink className="size-4" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
