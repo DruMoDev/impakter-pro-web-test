@@ -1,4 +1,5 @@
-import FAQs from "./components/sections/faqs-section/faqs";
+import FAQs from "./components/sections/faqs/faqs";
+import GetStartedSection from "./components/sections/get-started/get-started-section";
 import HeroSection from "./components/sections/hero/hero-homepage-section";
 import ShowcaseReportSection from "./components/sections/showcase-report/showcase-report-section";
 import ToolComparatorSection from "./components/sections/tool-comparator/tool-comparator-section";
@@ -13,6 +14,7 @@ export default function Home() {
       <ShowcaseReportSection />
       <WhyImpkaterSection />
       <FAQs faqs={FAQS_HOMEPAGE} title="FAQs for ESG Software in the EU" />
+      <GetStartedSection />
     </>
   );
 }
