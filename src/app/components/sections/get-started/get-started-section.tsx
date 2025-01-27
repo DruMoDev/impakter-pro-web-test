@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function GetStartedSection() {
   return (
-    <section className="py-20 bg-primary-light relative overflow-hidden">
+    <section className="pt-20 bg-primary-light relative overflow-hidden">
       <div className="grid grid-cols-2 pl-20">
         <div className="flex flex-col gap-5">
           <ImpakterProTextLogo />
