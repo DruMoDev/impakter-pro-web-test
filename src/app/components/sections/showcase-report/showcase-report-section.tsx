@@ -13,7 +13,7 @@ const CardsInfo = [
   },
 ];
 
-export default function ShowcaseReportSection() {
+export default function ShowcaseReport() {
   return (
     <section className="py-20">
       <div className="container flex flex-col gap-y-5">
@@ -35,7 +35,7 @@ export default function ShowcaseReportSection() {
               key={index}
               className="flex flex-col justify-between items-center gap-5 p-12 text-center text-balance border shadow-sm rounded-2xl">
               <Image
-                alt="IMPAKTER Badge 1"
+                alt="IMPAKTER Badge"
                 src={card.image}
                 className="w-auto h-[200px]"
                 height={291}

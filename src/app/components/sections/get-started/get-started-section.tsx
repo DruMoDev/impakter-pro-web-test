@@ -3,7 +3,7 @@ import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function GetStartedSection() {
+export default function GetStarted() {
   return (
     <section className="py-20 bg-primary-light relative overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 container-wide">

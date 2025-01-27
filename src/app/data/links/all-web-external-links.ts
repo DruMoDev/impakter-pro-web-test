@@ -2,7 +2,7 @@ export const EXTERNAL_LINKS = {
   pricing: "/",
   blog: "/",
   login: "/",
-  esgToolBusiness: "/",
+  esgToolBusiness: "/business",
   esgToolSupply: "/",
   contact: "/",
   aboutUs: "/",
