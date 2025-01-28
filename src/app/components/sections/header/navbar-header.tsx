@@ -30,7 +30,7 @@ export default function Navbar() {
         )}
       </button>
 
-      <NavbarLinks isMenu={isMenu} />
+      <NavbarLinks isMenu={isMenu} setIsMenu={setIsMenu} />
     </nav>
   );
 }

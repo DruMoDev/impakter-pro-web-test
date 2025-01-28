@@ -7,18 +7,22 @@ export default function GetStarted() {
   return (
     <section className="py-20 bg-primary-light relative overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 container-wide">
-        <div className="flex flex-col gap-5 pr-20">
+        <div className="flex flex-col gap-5 lg:pr-20">
           <ImpakterProTextLogo />
           <h2 className="h2-content">Ready to get started?</h2>
           <p className="p-content font-semibold">
             From assessing your current ESG performance to road-mapping your
             path to comprehensive sustainability
           </p>
-          <div className="flex gap-5 flex-col lg:flex-row">
-            <Link href={EXTERNAL_LINKS.contact} className="btn btn-primary">
+          <div className="flex gap-5 flex-col lg:flex-row justify-start items-start">
+            <Link
+              href={EXTERNAL_LINKS.contact}
+              className="btn btn-primary ">
               Contact Us
             </Link>
-            <Link href={EXTERNAL_LINKS.login} className="btn btn-secondary">
+            <Link
+              href={EXTERNAL_LINKS.login}
+              className="btn btn-secondary ">
               Get Free Score
             </Link>
           </div>

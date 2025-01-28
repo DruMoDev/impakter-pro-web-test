@@ -1,9 +1,15 @@
 import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 import { ChevronDown, LogIn } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 
-export default function NavbarLinks({ isMenu }: { isMenu: boolean }) {
+export default function NavbarLinks({
+  isMenu,
+  setIsMenu,
+}: {
+  isMenu: boolean;
+  setIsMenu: Dispatch<SetStateAction<boolean>>;
+}) {
   const [showDropdownSolutions, setShowDropdownSolutions] = useState(false);
   const [showDropdownCompany, setShowDropdownCompany] = useState(false);
 
@@ -25,12 +31,14 @@ export default function NavbarLinks({ isMenu }: { isMenu: boolean }) {
               }>
               <Link
                 href={EXTERNAL_LINKS.esgToolBusiness}
-                className="border-b w-full h-full p-5 hover:bg-primary-light hover:text-primary transition-all duration-300">
+                className="border-b w-full h-full p-5 hover:bg-primary-light hover:text-primary transition-all duration-300"
+                onClick={() => setIsMenu(false)}>
                 ESG For Companies
               </Link>
               <Link
                 href={EXTERNAL_LINKS.esgToolSupply}
-                className="w-full h-full p-5 hover:bg-primary-light hover:text-primary transition-all duration-300">
+                className="w-full h-full p-5 hover:bg-primary-light hover:text-primary transition-all duration-300"
+                onClick={() => setIsMenu(false)}>
                 ESG For Enterprises
               </Link>
             </div>
@@ -51,12 +59,14 @@ export default function NavbarLinks({ isMenu }: { isMenu: boolean }) {
               onMouseLeave={() => setShowDropdownCompany(!showDropdownCompany)}>
               <Link
                 href={EXTERNAL_LINKS.aboutUs}
-                className="border-b w-full h-full py-4 px-10 hover:bg-primary-light hover:text-primary transition-all duration-300">
+                className="border-b w-full h-full py-4 px-10 hover:bg-primary-light hover:text-primary transition-all duration-300"
+                onClick={() => setIsMenu(false)}>
                 About Us
               </Link>
               <Link
                 href={EXTERNAL_LINKS.contact}
-                className="w-full h-full py-4 px-10 hover:bg-primary-light hover:text-primary transition-all duration-300">
+                className="w-full h-full py-4 px-10 hover:bg-primary-light hover:text-primary transition-all duration-300"
+                onClick={() => setIsMenu(false)}>
                 Contact Us
               </Link>
             </div>
