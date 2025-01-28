@@ -1,39 +1,11 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown, LogIn, X } from "lucide-react";
-import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
-
-const NAVBAR_LINKS = [
-  {
-    title: "Solutions",
-    link: "#",
-    dropdown: true,
-  },
-  {
-    title: "Pricing",
-    link: EXTERNAL_LINKS.pricing,
-  },
-  {
-    title: "Company",
-    link: "#",
-    dropdown: true,
-  },
-  {
-    title: "Book a demo",
-    link: EXTERNAL_LINKS.contact,
-    className: "btn btn-secondary",
-  },
-  {
-    title: "Sign in",
-    link: EXTERNAL_LINKS.login,
-    className: "btn btn-primary",
-    icon: LogIn,
-  },
-];
+import { X } from "lucide-react";
+import NavbarLinks from "./navbar-links";
 
 export default function Navbar() {
   const [isMenu, setIsMenu] = useState(false);
+
   return (
     <nav>
       <button
@@ -57,29 +29,8 @@ export default function Navbar() {
           </svg>
         )}
       </button>
-      <ul
-        className={`${
-          isMenu ? "left-0" : "-left-full"
-        } uppercase top-[3.4rem]  font-bold lg:justify-between flex lg:flex-row flex-col absolute lg:static z-50 w-full gap-8 lg:gap-10 lg:items-center py-20 lg:py-1 transition-all duration-500 bg-white lg:bg-transparent items-start pl-5 lg:pl-0 h-screen lg:auto`}>
-        {NAVBAR_LINKS.map((link) => (
-          <li key={link.title}>
-            {link.dropdown ? (
-              <button className="flex gap-1 uppercase">
-                {link.title} <ChevronDown className="size-5 text-primary" />
-              </button>
-            ) : (
-              <Link
-                href={link.link}
-                className={link.className}
-                target="_blank"
-                rel="noopener noreferrer">
-                {link.icon && <link.icon className="size-4" />}
-                {link.title}
-              </Link>
-            )}
-          </li>
-        ))}
-      </ul>
+
+      <NavbarLinks isMenu={isMenu} />
     </nav>
   );
 }

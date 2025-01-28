@@ -14,7 +14,7 @@ export default function Hero() {
           alt="Hero Image"
           height={300}
           width={300}
-          className="lg:absolute -right-52 -top-52 w-auto static"
+          className="lg:absolute -right-52 -top-52 w-auto static -z-10"
         />
 
         <div className="flex flex-col items-center text-center gap-y-3 md:gap-y-5 lg:text-start lg:items-start w-full lg:w-[45%]">
