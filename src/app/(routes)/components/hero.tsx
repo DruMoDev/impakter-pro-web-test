@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Line from "@/components/ui/line";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CircleCheck } from "lucide-react";
 import DividerSlim from "@/components/ui/divider-slim";
 import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 
@@ -27,9 +27,18 @@ export default function Hero() {
             all sectors.
           </p>
           <ul className="flex flex-col gap-2 md:flex-row md:gap-5 lg:flex-col lg:gap-2 lg:">
-            <li className="p-content">· No Training Required</li>
-            <li className="p-content">· Zero Consultancy Fee</li>
-            <li className="p-content">· Setup within minutes</li>
+            <li className="p-content flex gap-1 items-center">
+              <CircleCheck className="text-primary size-4" /> No Training
+              Required
+            </li>
+            <li className="p-content flex gap-1 items-center">
+              <CircleCheck className="text-primary size-4" /> Zero Consultancy
+              Fee
+            </li>
+            <li className="p-content flex gap-1 items-center">
+              <CircleCheck className="text-primary size-4" /> Setup within
+              minutes
+            </li>
           </ul>
 
           <DividerSlim />

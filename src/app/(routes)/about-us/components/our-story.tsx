@@ -20,7 +20,7 @@ export default function OurStory() {
               sustainable living easy. From education to championing it. For
               individuals and institutions. Across the globe.
             </p>
-            <div className="flex gap-5">
+            <div className="flex gap-2 items-center">
               <p className="p-content">visit:</p>
               <Link
                 href={EXTERNAL_LINKS.impakterIndex}

@@ -2,6 +2,8 @@ import DividerSlim from "@/components/ui/divider-slim";
 import LeftSection from "./left-section";
 import LinksSection from "./links-section";
 import ImpakterProTextLogo from "@/components/ui/impakter-pro-text-logo";
+import Link from "next/link";
+import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 
 export default function Footer() {
   return (
@@ -27,7 +29,9 @@ export default function Footer() {
             <span className="text-typo-secondary/50">|</span>
             <p className="font-semibold">Privacy Policy</p>
             <span className="text-typo-secondary/50">|</span>
-            <p className="font-semibold">Contact Us</p>
+            <Link href={EXTERNAL_LINKS.contact} className="font-semibold">
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>
