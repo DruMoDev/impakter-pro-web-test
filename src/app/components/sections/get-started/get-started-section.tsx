@@ -14,7 +14,7 @@ export default function GetStarted() {
             From assessing your current ESG performance to road-mapping your
             path to comprehensive sustainability
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 flex-col lg:flex-row">
             <Link href={EXTERNAL_LINKS.contact} className="btn btn-primary">
               Contact Us
             </Link>
