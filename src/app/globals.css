@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .container {
-  @apply mx-auto max-w-[1020px] w-full h-full lg:px-0 px-3 md:px-5;
+  @apply mx-auto max-w-[1020px] w-full h-full xl:px-0 px-5;
 }
 
 .container-wide {
-  @apply mx-auto max-w-[1300px] w-full h-full 2xl:px-0 px-3 md:px-5;
+  @apply mx-auto max-w-[1300px] w-full h-full 2xl:px-0 px-5;
 }
 
 .p-content {

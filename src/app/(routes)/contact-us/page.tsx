@@ -1,5 +1,6 @@
 import GetStarted from "@/components/sections/get-started/get-started-section";
 import { Metadata } from "next";
+import MainSection from "./components/main-section";
 
 export const metadata: Metadata = {
   title: "Contact for ESG SaaS Sales & Consultation | IMPAKTER PRO",
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function ContactUs() {
   return (
     <>
+      <MainSection />
       <GetStarted />
     </>
   );

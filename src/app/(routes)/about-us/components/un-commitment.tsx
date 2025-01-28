@@ -11,27 +11,22 @@ const CARDS_INFO = [
   {
     title: "Quality education",
     img: imgBadge1,
-    body: "It is an evolving set of systems ",
   },
   {
-    title: "Quality education",
+    title: "Gender Equality",
     img: imgBadge2,
-    body: "It is an evolving set of systems ",
   },
   {
-    title: "Quality education",
+    title: "Industry, Innovation and Infrastructure",
     img: imgBadge3,
-    body: "It is an evolving set of systems ",
   },
   {
-    title: "Quality education",
+    title: "Sustainable Cities and Communities",
     img: imgBadge4,
-    body: "It is an evolving set of systems ",
   },
   {
-    title: "Quality education",
+    title: "Climate Action",
     img: imgBadge5,
-    body: "It is an evolving set of systems ",
   },
 ];
 
@@ -43,20 +38,18 @@ export default function UNCommitment() {
           <Badge>United nations</Badge>
           <h2 className="h2-content">Our UN SDG Commitment</h2>
           <DividerSlim />
-          <div className="grid grid-cols-1 lg:grid-cols-5 justify-between gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
             {CARDS_INFO.map((card, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center text-center gap-3">
-                <h4 className="font-semibold">{card.title}</h4>
+                className="flex flex-col items-center h-full text-center gap-3">
                 <Image
                   src={card.img}
                   alt={card.title + " badge"}
                   height={150}
                   width={150}
                 />
-                <DividerSlim />
-                <p className="p-content font-medium">{card.body}</p>
+                <h4 className="font-semibold">{card.title}</h4>
               </div>
             ))}
           </div>

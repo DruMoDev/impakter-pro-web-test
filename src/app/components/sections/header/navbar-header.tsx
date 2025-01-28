@@ -59,8 +59,8 @@ export default function Navbar() {
       </button>
       <ul
         className={`${
-          isMenu ? "right-0" : "-right-full"
-        } uppercase top-[3.4rem] font-bold justify-between flex lg:flex-row flex-col absolute lg:static z-50 w-full gap-8 lg:gap-10 lg:items-center py-20 lg:py-1 transition-all duration-500 bg-white lg:bg-transparent border-b border-primary lg:border-none items-start pl-5 lg:pl-0`}>
+          isMenu ? "left-0" : "-left-full"
+        } uppercase top-[3.4rem]  font-bold lg:justify-between flex lg:flex-row flex-col absolute lg:static z-50 w-full gap-8 lg:gap-10 lg:items-center py-20 lg:py-1 transition-all duration-500 bg-white lg:bg-transparent items-start pl-5 lg:pl-0 h-screen lg:auto`}>
         {NAVBAR_LINKS.map((link) => (
           <li key={link.title}>
             {link.dropdown ? (
