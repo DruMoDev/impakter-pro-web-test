@@ -7,7 +7,7 @@ import Benefits from "./components/benefits";
 import Advantages from "./components/advantages";
 
 export const metadata: Metadata = {
-  title: " ESG Supply Chain Software: Map 1,000s of Suppliers ESG",
+  title: "ESG Supply Chain Software: Map 1,000s of Suppliers ESG",
   description:
     "IMPAKTER PRO solves large company CSRD reporting: map entire supply chain ESG on one dashboard & earn fees on every supplier onboarded.",
 };

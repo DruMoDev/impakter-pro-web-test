@@ -6,35 +6,25 @@ import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
 
 const NAVBAR_LINKS = [
   {
-    id: 1,
     title: "Solutions",
     link: "#",
     dropdown: true,
   },
   {
-    id: 2,
     title: "Pricing",
     link: EXTERNAL_LINKS.pricing,
   },
   {
-    id: 3,
-    title: "Resources",
-    link: EXTERNAL_LINKS.blog,
-  },
-  {
-    id: 4,
     title: "Company",
     link: "#",
     dropdown: true,
   },
   {
-    id: 5,
     title: "Book a demo",
     link: EXTERNAL_LINKS.contact,
     className: "btn btn-secondary",
   },
   {
-    id: 6,
     title: "Sign in",
     link: EXTERNAL_LINKS.login,
     className: "btn btn-primary",
@@ -72,7 +62,7 @@ export default function Navbar() {
           isMenu ? "right-0" : "-right-full"
         } uppercase top-[3.4rem] font-bold justify-between flex lg:flex-row flex-col absolute lg:static z-50 w-full gap-8 lg:gap-10 lg:items-center py-20 lg:py-1 transition-all duration-500 bg-white lg:bg-transparent border-b border-primary lg:border-none items-start pl-5 lg:pl-0`}>
         {NAVBAR_LINKS.map((link) => (
-          <li key={link.id} >
+          <li key={link.title}>
             {link.dropdown ? (
               <button className="flex gap-1 uppercase">
                 {link.title} <ChevronDown className="size-5 text-primary" />

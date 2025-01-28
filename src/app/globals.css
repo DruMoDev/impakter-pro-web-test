@@ -18,6 +18,10 @@
   @apply rounded-[32px] py-1.5 px-[18px] font-bold text-sm uppercase text-center flex items-center justify-center border min-w-[150px] gap-2;
 }
 
+.btn-big {
+  @apply px-16 py-2
+}
+
 .btn-primary {
   @apply bg-primary text-white border-primary;
 }
