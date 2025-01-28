@@ -33,7 +33,7 @@ const CARDS_INFO = [
 
 export default function PricingComparator() {
   return (
-    <section className="py-20">
+    <section className="pt-7 pb-20">
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center items-center w-[70%]">
         {CARDS_INFO.map((card) => (
           <div

@@ -19,7 +19,7 @@ export default function NavbarLinks({ isMenu }: { isMenu: boolean }) {
           Solutions <ChevronDown className="size-5 text-primary" />
           {showDropdownSolutions && (
             <div
-              className="absolute flex flex-col gap-2 bg-white border justify-start text-start text-nowrap rounded-lg top-8"
+              className="absolute flex flex-col bg-white border justify-start text-start text-nowrap rounded-lg top-8"
               onMouseLeave={() =>
                 setShowDropdownSolutions(!showDropdownSolutions)
               }>
@@ -47,7 +47,7 @@ export default function NavbarLinks({ isMenu }: { isMenu: boolean }) {
           Company <ChevronDown className="size-5 text-primary" />
           {showDropdownCompany && (
             <div
-              className="absolute flex flex-col gap-2 bg-white border justify-start text-start text-nowrap rounded-lg top-14"
+              className="absolute flex flex-col bg-white border justify-start text-start text-nowrap rounded-lg top-14"
               onMouseLeave={() => setShowDropdownCompany(!showDropdownCompany)}>
               <Link
                 href={EXTERNAL_LINKS.aboutUs}
