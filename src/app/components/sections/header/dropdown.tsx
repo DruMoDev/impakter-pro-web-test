@@ -17,6 +17,7 @@ export default function Dropdown({
     <li>
       <button
         className="flex gap-1 uppercase relative"
+        onClick={() => setShowDropdown(!showDropdown)}
         onMouseEnter={() => setShowDropdown(true)}>
         {name} <ChevronDown className="size-5 text-primary" />
         {showDropdown && (

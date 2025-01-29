@@ -23,11 +23,15 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-3 lg:justify-end">
-            <a href={EXTERNAL_LINKS.privacyPolicy} className="font-semibold">
+            <Link
+              href={EXTERNAL_LINKS.privacyPolicy}
+              className="font-semibold hover:underline">
               Privacy Policy
-            </a>
+            </Link>
             <span className="text-typo-secondary/50">|</span>
-            <Link href={EXTERNAL_LINKS.contact} className="font-semibold">
+            <Link
+              href={EXTERNAL_LINKS.contact}
+              className="font-semibold hover:underline">
               Contact Us
             </Link>
           </div>

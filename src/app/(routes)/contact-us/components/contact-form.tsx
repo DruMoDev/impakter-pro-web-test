@@ -34,7 +34,7 @@ export default function ContactForm() {
           <input
             type="text"
             className="border rounded-lg py-2 px-3 placeholder:font-normal"
-            placeholder="Book a demo"
+            placeholder="Demo call, PRO Tool usage, Enterprise solution...."
           />
         </label>
         <textarea

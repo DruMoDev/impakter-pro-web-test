@@ -37,11 +37,11 @@ export default function ShowcaseReport() {
               <Image
                 alt="IMPAKTER Badge"
                 src={card.image}
-                className="w-auto h-[200px]"
+                className="w-auto h-auto sm:h-[200px]"
                 height={291}
                 width={291}
               />
-              <h4 className="font-semibold text-xl">{card.title}</h4>
+              <h4 className="font-semibold text-lg md:text-xl">{card.title}</h4>
               <Line />
             </div>
           ))}
