@@ -22,7 +22,7 @@ export default function Hero() {
             ESG Software for CSRD Reporting: Easy. Affordable. Fast.
           </h1>
           <Line />
-          <p className="p-content font-semibold">
+          <p className="p-content">
             ESG Tool for 360° sustainability solution for EU businesses across
             all sectors.
           </p>
@@ -36,8 +36,8 @@ export default function Hero() {
               Fee
             </li>
             <li className="p-content flex gap-1 items-center">
-              <CircleCheck className="text-primary size-4" /> Setup within
-              minutes
+              <CircleCheck className="text-primary size-4" /> Setup Within
+              Minutes
             </li>
           </ul>
 

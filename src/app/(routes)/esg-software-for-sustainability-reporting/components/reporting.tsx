@@ -4,7 +4,7 @@ import { FileText, NotepadText, Medal, Database } from "lucide-react";
 
 const CARDS_INFO = [
   {
-    title: "Scorecard",
+    title: "CSRD-Compliant Scorecard",
     body: {
       1: "Receive instant score of your sustainability status",
       2: "Share ESG scorecard cum achievements to investors",
@@ -20,7 +20,7 @@ const CARDS_INFO = [
     icon: NotepadText,
   },
   {
-    title: "Badge",
+    title: "Sustainability Badge",
     body: {
       1: "Show your ESG efforts on digital & physical assets",
       2: "Leverage your sustainable edge over competitors",
