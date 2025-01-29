@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function OurStory() {
   return (
-    <section className="py-20 bg-primary-light">
+    <section className="py-20 ">
       <div className="container flex flex-col gap-4 justify-center items-center">
         <Line />
         <h2 className="h2-content">Our Story</h2>

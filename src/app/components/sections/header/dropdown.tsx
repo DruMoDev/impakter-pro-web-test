@@ -21,13 +21,13 @@ export default function Dropdown({
         {name} <ChevronDown className="size-5 text-primary" />
         {showDropdown && (
           <div
-            className="absolute flex flex-col bg-white border justify-start text-start text-nowrap rounded-lg top-8 z-[9999]"
+            className="absolute flex flex-col bg-white border justify-start text-start text-nowrap rounded-lg  z-[9999] navbar-dropdown"
             onMouseLeave={() => setShowDropdown(!showDropdown)}>
             {links.map((link) => (
               <Link
                 key={link.name}
                 href={link.link}
-                className="border-b w-full h-full p-5 hover:bg-primary-light hover:text-primary transition-all duration-300"
+                className="border-b p-5 hover:text-primary transition-all duration-300"
                 onClick={() => setIsMenu(false)}>
                 {link.name}
               </Link>

@@ -15,7 +15,7 @@ export default function NavbarLinks({
     <ul
       className={`${
         isMenu ? "left-0" : "-left-full"
-      } uppercase top-[3.4rem] font-bold lg:justify-between flex lg:flex-row flex-col absolute lg:static z-50 w-full gap-8 lg:gap-10 lg:items-center py-20 lg:py-1 transition-all duration-500 bg-white lg:bg-transparent items-start pl-5 lg:pl-0 h-screen lg:auto text-base 2xl:text-sm`}>
+      } uppercase top-[3.4rem] font-bold lg:justify-between flex lg:flex-row flex-col absolute lg:static z-50 w-full gap-8 lg:gap-10 lg:items-center py-20 lg:py-1 transition-all duration-500 bg-white lg:bg-transparent items-start pl-5 lg:pl-0 h-screen lg:h-auto text-base 2xl:text-sm`}>
       <Dropdown
         setIsMenu={setIsMenu}
         name="Solutions"

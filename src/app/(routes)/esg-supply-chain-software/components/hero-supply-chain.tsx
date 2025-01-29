@@ -8,7 +8,7 @@ import Badge from "@/components/ui/badge";
 
 export default function Hero() {
   return (
-    <section className="py-20">
+    <section className="first-section">
       <div className="flex flex-col  lg:mt-20 lg:gap-5 container relative">
         <Image
           src={"/hero-enterprise-page.svg"}

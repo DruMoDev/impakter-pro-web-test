@@ -19,7 +19,7 @@
 }
 
 .btn-big {
-  @apply px-16 py-2
+  @apply px-16 py-2;
 }
 
 .btn-primary {
@@ -37,8 +37,29 @@
   @apply font-semibold text-lg lg:text-2xl;
 }
 
+.first-section {
+  @apply py-10
+}
+
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+}
+
+.navbar-dropdown {
+  animation-name: Dropdown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes Dropdown {
+  0% {
+    opacity: 0;
+    top: 1.2rem;
+    
+  }
+  100% {
+    opacity: 100;
+    top: 2.8rem;
   }
 }
