@@ -8,32 +8,38 @@ export default function ContactForm() {
       </p>
       <form className="flex flex-col gap-5 mt-4">
         <label className="font-medium flex flex-col gap-2">
-          Full Name
+          <span>
+            Full Name <span className="text-red-700">*</span>
+          </span>
           <input
             type="text"
+            required
             className="border rounded-lg py-2 px-3 placeholder:font-normal"
             placeholder="John Doe"
           />
         </label>
         <label className="font-medium flex flex-col gap-2">
-          Email
+          <span>
+            Email <span className="text-red-700">*</span>
+          </span>
           <input
             type="email"
+            required
             className="border rounded-lg py-2 px-3 placeholder:font-normal"
             placeholder="john.doe@impakter.com"
           />
         </label>
         <label className="font-medium flex flex-col gap-2">
-          Select Subject
+          Subject
           <input
             type="text"
             className="border rounded-lg py-2 px-3 placeholder:font-normal"
-            placeholder="John Doe"
+            placeholder="Book a demo"
           />
         </label>
         <textarea
           className="border rounded-lg py-2 px-3 placeholder:font-normal"
-          placeholder="Please describe your subject in 200 words"
+          placeholder="Please describe your request"
         />
 
         <button type="submit" className="btn btn-big btn-primary mx-auto">

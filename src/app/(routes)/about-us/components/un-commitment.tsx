@@ -1,10 +1,10 @@
 import Badge from "@/components/ui/badge";
 import DividerSlim from "@/components/ui/divider-slim";
-import imgBadge1 from "@/(routes)/about-us/assets/un-badge-1.svg";
-import imgBadge2 from "@/(routes)/about-us/assets/un-badge-2.svg";
-import imgBadge3 from "@/(routes)/about-us/assets/un-badge-3.svg";
-import imgBadge4 from "@/(routes)/about-us/assets/un-badge-4.svg";
-import imgBadge5 from "@/(routes)/about-us/assets/un-badge-5.svg";
+import imgBadge1 from "@/(routes)/about-us/assets/un-badge-1.webp";
+import imgBadge2 from "@/(routes)/about-us/assets/un-badge-2.webp";
+import imgBadge3 from "@/(routes)/about-us/assets/un-badge-3.webp";
+import imgBadge4 from "@/(routes)/about-us/assets/un-badge-4.webp";
+import imgBadge5 from "@/(routes)/about-us/assets/un-badge-5.webp";
 import Image from "next/image";
 
 const CARDS_INFO = [
@@ -48,6 +48,7 @@ export default function UNCommitment() {
                   alt={card.title + " badge"}
                   height={150}
                   width={150}
+                  className="rounded-lg"
                 />
                 <h4 className="font-semibold">{card.title}</h4>
               </div>

@@ -24,10 +24,10 @@ export default function Benefits() {
   return (
     <section className="py-20">
       <div className="container flex flex-col gap-4">
-        <Line />
         <h2 className="h2-content">
           How a Supply Chain Can Benefit from Sustainable Practices
         </h2>
+        <Line />
         <p className="p-content">
           Becoming sustainable does more than meeting ESG regulations. It helps
           make the most of the changing market preferences.

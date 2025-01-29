@@ -13,8 +13,11 @@ export default {
     extend: {
       colors: {
         primary: "#1492EF",
+        "primary-dark": "#0F76C3",
         "primary-light": "#F8FBFF",
         "typo-secondary": "#7C7C7C",
+        white: "#FFFFFF",
+        "white-dark": "#F0F0F0",
       },
       borderRadius: {
         lg: "var(--radius)",

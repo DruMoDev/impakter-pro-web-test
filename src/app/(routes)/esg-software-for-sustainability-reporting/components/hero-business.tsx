@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import DividerSlim from "@/components/ui/divider-slim";
 import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
-import Badge from "@/components/ui/badge";
 
 export default function Hero() {
   return (
@@ -19,7 +18,6 @@ export default function Hero() {
         />
 
         <div className="flex flex-col items-center text-center gap-y-3 md:gap-y-5 lg:text-start lg:items-start w-full lg:w-[45%]">
-          <Badge>for businesses</Badge>
           <h1 className="h1-content ">
             ESG Reporting Tool for SMEs. Designed for Speed, Cost, and
             Efficiency.
@@ -34,7 +32,7 @@ export default function Hero() {
           <Link href={EXTERNAL_LINKS.login} className="gap-2 btn btn-secondary">
             Free esg score <ArrowRight />
           </Link>
-          <p className="p-content font-medium">*preliminary ESG assessment</p>
+          <p className="p-content font-medium">*no credit card required</p>
         </div>
       </div>
     </section>

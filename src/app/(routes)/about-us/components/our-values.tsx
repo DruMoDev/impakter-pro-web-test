@@ -34,11 +34,8 @@ export default function OurValues() {
   return (
     <section className="py-20 bg-primary-light">
       <div className="container flex flex-col gap-3">
-        <Line />
         <h2 className="h2-content">Our Values</h2>
-        <p className="p-content">
-          Advantages of Using ESG Supply Chain Tool for Sustainability
-        </p>
+        <Line />
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-3">
           {CARDS_INFO.map((card) => (
             <div

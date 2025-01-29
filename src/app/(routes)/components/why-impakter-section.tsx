@@ -1,4 +1,5 @@
 import Badge from "@/components/ui/badge";
+import Line from "@/components/ui/line";
 import {
   Banknote,
   Box,
@@ -40,14 +41,15 @@ export default function WhyImpkaterSection() {
     <section className="py-20 bg-primary-light">
       <div className="container flex flex-col gap-4">
         <div>
-          <Badge>Explore</Badge>
+          <Badge>Features</Badge>
         </div>
         <h2 className="h2-content">
+          Why Businesses Choose IMPAKTER PRO ESG Software
+        </h2>
+        <Line />
+        <p className="p-content font-medium">
           We cover essentials of CSRD reporting and go beyond with value-adds to
           ensure you meet all your sustainability needs.
-        </h2>
-        <p className="p-content font-medium">
-          Why Businesses Choose IMPAKTER PRO ESG Software
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 mt-5 gap-5">

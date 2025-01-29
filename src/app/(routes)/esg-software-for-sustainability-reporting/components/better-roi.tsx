@@ -24,10 +24,10 @@ export default function BetterROI() {
   return (
     <section className="py-20">
       <div className="container flex flex-col gap-4">
-        <Line />
         <h2 className="h2-content">
           ROI of Sustainability for SMEs with an ESG Software
         </h2>
+        <Line />
         <p className="p-content">
           Most SMEs in the EU mandated to report CSRD struggle because of
           limited time, budget and ESG expertise. An ESG tool for SME can help

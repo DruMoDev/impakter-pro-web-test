@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Line from "@/components/ui/line";
-import Badge from "@/components/ui/badge";
 import heroImg from "@/(routes)/about-us/assets/hero-about-us.svg";
 
 export default function Hero() {
@@ -16,7 +15,6 @@ export default function Hero() {
         />
 
         <div className="flex flex-col items-center text-center gap-y-3 md:gap-y-5 lg:text-start lg:items-start w-full lg:w-[45%]">
-          <Badge>About Us</Badge>
           <h1 className="h1-content ">
             Empowering Businesses on Their Sustainability Journey
           </h1>

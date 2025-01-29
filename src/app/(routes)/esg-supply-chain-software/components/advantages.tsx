@@ -25,13 +25,13 @@ export default function Advantages() {
   return (
     <section className="py-20 bg-primary-light">
       <div className="container flex flex-col gap-4">
-        <Line />
         <h2 className="h2-content">
+          Advantages of Using ESG Supply Chain Tool for Sustainability
+        </h2>
+        <Line />
+        <p className="p-content">
           Our partners use IMPAKTER PRO for going green -- from individual SME
           partner to all the way up to meeting yearly ESG KPIs.
-        </h2>
-        <p className="p-content">
-          Advantages of Using ESG Supply Chain Tool for Sustainability
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">

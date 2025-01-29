@@ -1,21 +1,16 @@
-import Badge from "@/components/ui/badge";
 import DividerSlim from "@/components/ui/divider-slim";
 import Line from "@/components/ui/line";
-import { BriefcaseBusiness, Mail } from "lucide-react";
+import { Building2, Mail } from "lucide-react";
 
 export default function ContactInfo() {
   return (
     <article className="w-full flex flex-col gap-2">
-      <div>
-        <Badge>Let&apos;s talk</Badge>
-      </div>
       <h2 className="h2-content">Contact Us</h2>
       <Line />
-      <p className="p-content">
-        Fill out the form below and our sales team will get back to you as soon
-        as possible
-      </p>
-      <p className="p-content font-semibold mt-3">General</p>
+      <div className="flex gap-2 mt-5">
+        <Building2 className="text-primary size-5" />
+        <p className="p-content font-semibold">Headquarters</p>
+      </div>
       <DividerSlim />
       <p className="p-content font-semibold">IMPAKTER LIMITED</p>
       <div>
@@ -24,20 +19,15 @@ export default function ContactInfo() {
         </p>
         <p className="p-content">Office Hours: 9.30 AM – 5.30 PM</p>
       </div>
-      <Mail className="text-primary size-5 mt-5" />
-      <p className="p-content font-semibold">Custom Service</p>
+      <div className="flex gap-2 mt-5">
+        <Mail className="text-primary size-5" />
+        <p className="p-content font-semibold">Email</p>
+      </div>
       <DividerSlim />
       <a
         href="mailto:impakter.pro@gmail.com"
         className="p-content w-fit underline">
         impakter.pro@gmail.com
-      </a>
-
-      <BriefcaseBusiness className="text-primary size-5 mt-5" />
-      <p className="p-content font-semibold">Career at Impakter</p>
-      <DividerSlim />
-      <a href="mailto:info@gmail.com" className="p-content w-fit underline">
-        info@gmail.com
       </a>
     </article>
   );

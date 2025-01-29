@@ -11,12 +11,13 @@ export default function OurMethodology() {
       <div className="container">
         <div className="flex flex-col gap-4 items-start w-[60%]">
           <Badge>Our methodology</Badge>
-          <h2 className="h2-content">
+          <h2 className="h2-content">The IMPAKTER INDEX Methodology</h2>
+          <Line />
+          <p className="p-content mb-2">
             The IMPAKTER INDEX Methodology has been developed over several years
             by a multidisciplinary team of experts both internally and
             externally.
-          </h2>
-          <Line />
+          </p>
           <p className="p-content mb-2">
             It is an evolving set of systems, that we keep updating to stay on
             top of the latest regulations, discoveries, and trends.

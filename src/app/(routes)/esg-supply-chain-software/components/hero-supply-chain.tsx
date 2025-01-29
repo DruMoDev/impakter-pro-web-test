@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import DividerSlim from "@/components/ui/divider-slim";
 import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
-import Badge from "@/components/ui/badge";
 
 export default function Hero() {
   return (
@@ -19,7 +18,6 @@ export default function Hero() {
         />
 
         <div className="flex flex-col items-center text-center gap-y-3 md:gap-y-5 lg:text-start lg:items-start w-full lg:w-[45%]">
-          <Badge>For enterprises</Badge>
           <h1 className="h1-content ">
             ESG Supply Chain Software or Sustainability Reporting
           </h1>

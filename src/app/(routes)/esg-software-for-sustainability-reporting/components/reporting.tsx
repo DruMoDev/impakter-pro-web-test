@@ -41,15 +41,15 @@ export default function Reporting() {
   return (
     <section className="py-20 bg-primary-light">
       <div className="container flex flex-col gap-4">
-        <Line />
         <h2 className="h2-content">
+          More Than a Sustainability Software for CSRD Reporting
+        </h2>
+        <Line />
+        <p className="p-content">
           Reporting sustainability for business is a new mandate and keeps
           evolving, so just a CSRD software for SMEs is not enough. We recognise
           it and offer a decade strong ecosystem to partner up in your ESG
           journey—from learning to championing it!
-        </h2>
-        <p className="p-content">
-          More Than a Sustainability Software for CSRD Reporting
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">

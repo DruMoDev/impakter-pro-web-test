@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow: auto;
+}
+
 .container {
   @apply mx-auto max-w-[1020px] w-full h-full xl:px-0 px-5;
 }
@@ -23,10 +27,10 @@
 }
 
 .btn-primary {
-  @apply bg-primary text-white border-primary;
+  @apply bg-primary text-white border-primary hover:bg-primary-dark transition-all  ease-in;
 }
 .btn-secondary {
-  @apply bg-white text-primary border-primary;
+  @apply bg-white text-primary border-primary hover:bg-primary hover:text-white transition-all  ease-in;
 }
 
 .h1-content {
@@ -38,28 +42,11 @@
 }
 
 .first-section {
-  @apply py-10
+  @apply py-10;
 }
 
 @layer base {
   :root {
     --radius: 0.5rem;
-  }
-}
-
-.navbar-dropdown {
-  animation-name: Dropdown;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-@keyframes Dropdown {
-  0% {
-    opacity: 0;
-    top: 1.2rem;
-    
-  }
-  100% {
-    opacity: 100;
-    top: 2.8rem;
   }
 }
