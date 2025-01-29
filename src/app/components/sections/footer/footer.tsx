@@ -19,15 +19,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-0">
           <div className="flex gap-3 flex-col lg:flex-row">
             <ImpakterProTextLogo />{" "}
-            <p className="font-semibold">
-              © 2024 Impakterpro.com All rights reserved
-            </p>
+            <p className="font-semibold">© 2025 IMPAKTER All rights reserved</p>
           </div>
 
           <div className="flex gap-3 lg:justify-end">
-            <p className="font-semibold">Terms & Conditions</p>
-            <span className="text-typo-secondary/50">|</span>
-            <p className="font-semibold">Privacy Policy</p>
+            <a href={EXTERNAL_LINKS.privacyPolicy} className="font-semibold">
+              Privacy Policy
+            </a>
             <span className="text-typo-secondary/50">|</span>
             <Link href={EXTERNAL_LINKS.contact} className="font-semibold">
               Contact Us
