@@ -69,3 +69,52 @@ body {
     --radius: 0.5rem;
   }
 }
+
+
+.carousel-infinite {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.carousel-infinite::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  background: linear-gradient(to left, white, transparent);
+  z-index: 2;
+}
+
+.carousel-infinite::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: linear-gradient(to right, white, transparent);
+  z-index: 2;
+}
+
+.carousel-infinite .carousel-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+.carousel-infinite .carousel-item {
+  flex: 0 0 auto;
+  margin: 0 40px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

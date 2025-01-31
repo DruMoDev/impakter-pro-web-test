@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { FAQS_SUPPLYCHAIN } from "@/data/faqs/supply-chain";
 import Benefits from "./components/benefits";
 import Advantages from "./components/advantages";
+import Partners from "@/components/sections/partners/partners";
 
 export const metadata: Metadata = {
   title: "ESG Supply Chain Software: Map 1,000s of Suppliers ESG",
@@ -18,6 +19,7 @@ export default function SupplyChain() {
       <Hero />
       <Benefits />
       <Advantages />
+      <Partners />
       <FAQs
         title="FAQs for ESG Supply Chain Software in the EU"
         faqs={FAQS_SUPPLYCHAIN}

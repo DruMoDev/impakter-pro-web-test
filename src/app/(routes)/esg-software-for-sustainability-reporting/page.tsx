@@ -6,6 +6,7 @@ import GetStarted from "@/components/sections/get-started/get-started-section";
 import FAQs from "@/components/sections/faqs/faqs";
 import { FAQS_BUSINESS } from "@/data/faqs/business";
 import { Metadata } from "next";
+import Partners from "@/components/sections/partners/partners";
 
 export const metadata: Metadata = {
   title: "ESG Software for EU Companies ",
@@ -20,6 +21,7 @@ export default function Business() {
       <BetterROI />
       <Reporting />
       <ShowcaseReport />
+      <Partners />
       <FAQs title="FAQs for ESG Software in the EU" faqs={FAQS_BUSINESS} />
       <GetStarted />
     </>
