@@ -56,7 +56,7 @@ export default function Reporting() {
           {CARDS_INFO.map((card) => (
             <div
               key={card.title}
-              className="flex flex-col shadow rounded-3xl p-6 gap-2 border bg-white">
+              className="flex flex-col gap-2 card">
               <div className="bg-primary/10 p-2 w-fit rounded-3xl">
                 <card.icon className="text-primary" />
               </div>

@@ -28,15 +28,15 @@ export default function Hero() {
           </p>
           <ul className="flex flex-col gap-2 md:flex-row md:gap-5 lg:flex-col lg:gap-2 lg:">
             <li className="p-content flex gap-1 items-center">
-              <CircleCheck className="text-primary size-4" /> No Training
+              <CircleCheck className="text-primary size-5" /> No Training
               Required
             </li>
             <li className="p-content flex gap-1 items-center">
-              <CircleCheck className="text-primary size-4" /> Zero Consultancy
+              <CircleCheck className="text-primary size-5" /> Zero Consultancy
               Fee
             </li>
             <li className="p-content flex gap-1 items-center">
-              <CircleCheck className="text-primary size-4" /> Setup Within
+              <CircleCheck className="text-primary size-5" /> Setup Within
               Minutes
             </li>
           </ul>

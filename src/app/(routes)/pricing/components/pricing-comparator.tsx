@@ -38,7 +38,7 @@ export default function PricingComparator() {
         {CARDS_INFO.map((card) => (
           <div
             key={card.title}
-            className="flex flex-col gap-3 p-7 rounded-3xl shadow border hover:border-primary transition-all duration-500 hover:bg-primary-light h-full relative">
+            className="flex flex-col gap-3 p-7 rounded-3xl  border-2 border-transparent hover:border-primary transition-all duration-200 hover:bg-primary-light h-full relative blue-shadow-hover cards-shadow">
             {card.popular && (
               <div className="absolute top-7 right-7">
                 <Badge>Popular</Badge>
