@@ -33,7 +33,7 @@ export default function ShowcaseReport() {
           {CardsInfo.map((card, index) => (
             <div
               key={index}
-              className="flex flex-col justify-between items-center gap-5 p-12 text-center text-balance border shadow-sm rounded-2xl">
+              className="flex flex-col justify-between items-center gap-5 p-12 text-center text-balance card rounded-2xl">
               <Image
                 alt="IMPAKTER Badge"
                 src={card.image}

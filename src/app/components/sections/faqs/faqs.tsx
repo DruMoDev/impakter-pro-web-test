@@ -38,7 +38,7 @@ export default function FAQs({
                 <AccordionItem
                   value={`${index + 1}`}
                   key={index}
-                  className="border px-4 mt-3  rounded-3xl bg-primary-light">
+                  className=" px-4 py-1 mt-3  rounded-3xl bg-[#F9FAFC]">
                   <AccordionTrigger className="font-semibold text-lg">
                     {question}
                   </AccordionTrigger>
@@ -51,7 +51,7 @@ export default function FAQs({
                 <AccordionItem
                   value={`${index + 1}`}
                   key={index}
-                  className="border px-4 mt-3  rounded-3xl bg-primary-light">
+                  className=" px-4 py-1 mt-3  rounded-3xl bg-[#F9FAFC]">
                   <AccordionTrigger className="font-semibold text-lg">
                     {question}
                   </AccordionTrigger>

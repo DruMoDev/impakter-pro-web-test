@@ -38,7 +38,7 @@ export default function BetterROI() {
           {CARDS_INFO.map((card, index) => (
             <div
               key={card.title}
-              className="flex flex-col shadow rounded-3xl p-6 gap-2 border">
+              className="flex flex-col gap-2 card">
               <span className="text-primary font-semibold">· 0{index + 1}</span>
               <DividerSlim />
               <h4 className="font-semibold">{card.title}</h4>

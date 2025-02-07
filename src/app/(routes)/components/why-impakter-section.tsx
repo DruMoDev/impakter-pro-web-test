@@ -56,7 +56,7 @@ export default function WhyImpkaterSection() {
           {CARDS_INFO.map((card, index) => (
             <div
               key={index}
-              className="flex justify-start gap-7 rounded-3xl p-5 shadow items-center bg-white h-[90px]">
+              className="flex justify-start gap-7  items-center h-[90px] card">
               <card.icon className="text-primary size-7" />
               <p className="font-semibold text-base text-balance">
                 {card.title}

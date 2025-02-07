@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <article className="w-full rounded-3xl border shadow p-8 flex flex-col gap-2">
+    <article className="w-full rounded-3xl  p-8 flex flex-col gap-2 blue-shadow">
       <h2 className="h2-content">Book a Demo!</h2>
       <p className="p-content">
         Fill out the form below and our sales team will get back to you as soon

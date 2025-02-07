@@ -2,7 +2,7 @@ import Badge from "@/components/ui/badge";
 import DividerSlim from "@/components/ui/divider-slim";
 import Line from "@/components/ui/line";
 import { EXTERNAL_LINKS } from "@/data/links/all-web-external-links";
-import { CircleCheck, ExternalLink } from "lucide-react";
+import { ArrowUpRight, CircleCheck } from "lucide-react";
 import Link from "next/link";
 
 export default function ToolComparatorSection() {
@@ -24,7 +24,7 @@ export default function ToolComparatorSection() {
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mt-2">
-            <div className="shadow-sm p-8 rounded-lg bg-white w-full hover:border-primary transition-all ease-in-out duration-300 border-2">
+            <div className=" p-8 rounded-3xl bg-white w-full border-2 border-transparent hover:border-primary blue-shadow-hover cards-shadow  transition-all ease-in-out duration-200">
               <h4 className="font-semibold text-lg">ESG Tool for Companies</h4>
               <div className="my-5">
                 <DividerSlim />
@@ -51,12 +51,12 @@ export default function ToolComparatorSection() {
                 <Link
                   href={EXTERNAL_LINKS.esgToolBusiness}
                   className="btn btn-primary">
-                  Explore <ExternalLink className="size-4" />
+                  Explore <ArrowUpRight className="size-5" />
                 </Link>
               </div>
             </div>
 
-            <div className="shadow-sm p-8 rounded-lg bg-white w-full hover:border-primary transition-all ease-in-out duration-300 border-2">
+            <div className=" p-8 rounded-3xl bg-white w-full border-2 border-transparent hover:border-primary blue-shadow-hover cards-shadow  transition-all ease-in-out duration-200">
               <h4 className="font-semibold text-lg">
                 ESG Tool for Enterprises
               </h4>
@@ -85,7 +85,7 @@ export default function ToolComparatorSection() {
                 <Link
                   href={EXTERNAL_LINKS.esgToolSupply}
                   className="btn btn-primary">
-                  Explore <ExternalLink className="size-4" />
+                  Explore <ArrowUpRight className="size-5" />
                 </Link>
               </div>
             </div>

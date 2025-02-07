@@ -32,11 +32,11 @@ export default function Benefits() {
           Becoming sustainable does more than meeting ESG regulations. It helps
           make the most of the changing market preferences.
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 nt-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-2">
           {CARDS_INFO.map((card, index) => (
             <div
               key={card.title}
-              className="flex flex-col shadow rounded-3xl p-6 gap-2 border">
+              className="flex flex-col gap-2 card">
               <span className="text-primary font-semibold">· 0{index + 1}</span>
               <DividerSlim />
               <h4 className="font-semibold">{card.title}</h4>
